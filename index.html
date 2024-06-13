@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="main-nav fixed-top"> 
+            <nav class="navbar navbar-expand-lg navbar-dark bg-body-color">
+                <div class="container">
+                  <a class="navbar-brand fw-bold fs-3" href="#"><img src="images2/logo.png" alt="">Weather</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#About">News</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#services">Live Cameras</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Works">Photo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Works">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+    </section>
+
+        
+   <section class="pt-5 title">
+    <div class="card">
+        <div class="search">
+        <input type="text" placeholder="enter city name" spellcheck="false">
+        <button>Find</button>
+        </div>
+        <div class="weather">
+        <div class="forecast-header d-flex">
+            </div>
+            <img src="images/113.png" class="weather-icon" alt="">
+            <h1 class="temp">39°c</h1>
+            <h2 class="city">Cairo</h2>
+            <div class="details">
+        <div class="col">
+        <img src="images/icon-wind.png" alt="">
+        <div>
+        <p id="wind" class="icon-wind">15 km/h</p>
+        <p>wind Speed</p>
+                </div>
+            </div>
+            <div class="col">
+            <img src="images/icon-umberella.png" alt="">
+            <div>
+            <p class="humidity">50%</p>
+            <p>humidity</p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+   </section>
+
+  <section>
+    <footer class="pt-5" style="background-color: #1C1C1C;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="subscribe">
+                            <input type="text" placeholder="Enter your Email to Subsctibe">
+                            <button>Subsctibe</button>                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="icons d-flex">
+                            <ul><a href=""><i class="fa-brands fa-facebook-f"></i></a></ul>
+                            <ul><a href=""><i class="fa-brands fa-twitter"></i></a></ul>
+                            <ul><a href=""><i class="fa-brands fa-google"></i></a></ul>
+                            <ul><a href=""><i class="fa-brands fa-pixiv"></i></a></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text pt-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+       </footer>
+        
+  </section>
+
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

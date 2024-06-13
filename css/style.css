@@ -1,0 +1,225 @@
+
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0,0,0,0.3)), url(../images/banner.png) ;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 90vh;
+}
+
+.main-nav { 
+    background-color: #1E202B;
+    padding: 1.5rem;
+}
+
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #7d918b, #4a4664);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search { 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-left: 16px;
+    font-size: 18px;
+  
+}
+
+
+.search:hover button {
+    background-color: #555;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all 0.5s;
+}
+
+.weather-icon { 
+    width: 170px;
+    margin-top: 30px;
+
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+
+
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.forecast-header { 
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.day { 
+    margin: 5px;
+}
+
+.main-nav .navbar .nav-item .nav-link.active{
+    position: relative;
+    color: #009AD8;
+    transition: transform 0.9s;
+
+}
+
+
+.main-nav .navbar .nav-item .nav-link.active::after{
+    content: '';
+    width: 80%;
+    height: 3px;
+    bottom: 0;
+    left: 5px;
+    background-color: #009AD8;
+    position: absolute;
+    transition: all 1s;
+}
+
+.main-nav .navbar .nav-item{
+    position: relative;
+    overflow: hidden;
+    margin-inline: 1rem;
+}
+
+.main-nav .navbar .nav-item::after{
+    content: '';
+    width: 80%;
+    height: 3px;
+    color: #009AD8;
+    bottom: 0;
+    left: -100%;
+    background-color:#009AD8;
+    position: absolute;
+    transition: all 1s;
+    
+}
+
+.main-nav .navbar .nav-item:hover::after{
+    left: 0;
+    color: #009AD8;
+
+}
+
+.nav-item .nav-link { 
+    color: #FFF;
+
+}
+
+.nav-item .nav-link:hover { 
+    color: #009AD8;
+
+}
+
+.title { 
+    padding-bottom: 30px;
+}
+.subscribe{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.subscribe input{
+    border: 0;
+    outline: 0;
+    background: #2a2b2a;
+    color: #555;
+    padding: 5px 15px;
+    height: 50px;
+    border-radius: 30px;
+    flex: 1;
+    position: relative;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.subscribe button{
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 20px 20px;
+    cursor: pointer;
+    margin-left: 5px;
+    background-color: #009AD8;
+    color: #fff;
+    position: absolute;
+    display: flex;
+    margin-left: 84%;
+}
+
+.icons ul a  { 
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: #1f2129;
+    color:#009AD8;
+    transition: all 0.5s;
+}
+
+.icons ul a:hover {
+    color: #fff;
+    background-color: #009AD8 ;
+}
+
+.text { 
+    color: #fff;
+    padding-bottom: 3rem;
+    margin-left: 20px;
+}
